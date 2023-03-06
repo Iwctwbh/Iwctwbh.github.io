@@ -1,8 +1,8 @@
 <template>
   <router-view></router-view>
 
-  <el-row style="justify-content: center;">
-    <el-col span="5" style="text-align: center;">
+  <div style="justify-content: center;">
+    <div span="5" style="text-align: center;">
       <p>
         作者: <a href="https://github.com/Iwctwbh" target="_blank">Iwctwbh</a>
       </p>
@@ -12,9 +12,11 @@
           https://github.com/Iwctwbh/LogFilter
         </a>
       </p>
-      <a href="/Tools/Home">
-        回到首页 Back To Home Page
-      </a>
-    </el-col>
-  </el-row>
+      <div>
+        <a href="/Tools/Home">
+          回到首页 Back To Home Page
+        </a>
+      </div>
+    </div>
+  </div>
 </template>
